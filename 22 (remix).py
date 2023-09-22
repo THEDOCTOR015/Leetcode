@@ -36,4 +36,4 @@ class Solution:
 Tests :
 """
 
-print(Solution.generateParenthesis(Solution,8))
+print(Solution.generateParenthesis(Solution,3))
