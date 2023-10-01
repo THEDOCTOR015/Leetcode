@@ -142,6 +142,8 @@ Answer (two pointers):
 """
 class Solution:
     def trap(self, height):
+        if len(height) <= 2 :
+            return 0
         maxright = height[len(height)-1]
         indexright = len(height)-1
         maxleft = height[0]
