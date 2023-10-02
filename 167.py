@@ -49,9 +49,9 @@ class Solution:
 Tests:
 """
 solution = Solution()
-#print(solution.twoSum([2,7,11,15],9)) 
-#print(solution.twoSum([2,3,4],6)) 
-#print(solution.twoSum([-1,0],-1))
-#print(solution.twoSum([0,0,3,4],0))
-#print(solution.twoSum([0,0,0,0],0))
+print(solution.twoSum([2,7,11,15],9)) 
+print(solution.twoSum([2,3,4],6)) 
+print(solution.twoSum([-1,0],-1))
+print(solution.twoSum([0,0,3,4],0))
+print(solution.twoSum([0,0,0,0],0))
 print(solution.twoSum([5,25,75],100))
