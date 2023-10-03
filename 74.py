@@ -2,7 +2,7 @@
 Answer:
 """
 class Solution:
-    def searchMatrix(self, matrix: List[List[int]], target: int) -> bool:
+    def searchMatrix(self, matrix, target):
         if not matrix:
             return False
         m, n = len(matrix), len(matrix[0])
