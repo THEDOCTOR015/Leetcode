@@ -18,7 +18,7 @@ class Solution:
 Tests:
 """
 solution = Solution()
-linkedlist1 = ListNode(1,ListNode(2,ListNode(2,ListNode(2))))
+linkedlist1 = ListNode(1,ListNode(2,ListNode(3,ListNode(4))))
 sol = solution.reverseList(linkedlist1)
 while sol:
     print("val:",sol.val)
