@@ -1,10 +1,8 @@
-from collections import deque
-data = [(0,0.657)]
-liste = []
-nombre = 1000000
-tests = 100
-for i in range(nombre) :
-    liste.append(i)
-doubleliste = deque(liste)
-for i in range(tests) :
-    del doubleliste[nombre//2]
+# Création d'une liste et de deux variables qui y font référence
+liste_partagee = [1, 2, 3]
+var1 = liste_partagee
+var2 = liste_partagee
+
+# Modification de la liste via var1
+var1.append(4)
+print("test")
